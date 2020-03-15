@@ -34,6 +34,7 @@ public class FieldVerifier {
 	 * @return true if valid, false if invalid
 	 */
 	public static boolean isValidName(String name) {
+		System.out.println("test");
 		if (name == null) {
 			return false;
 		}
